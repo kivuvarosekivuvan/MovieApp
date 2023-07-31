@@ -1,0 +1,107 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    background-color: #5f6161;
+    padding: 10px;
+  }
+  
+  .home, .yellow-button {
+    text-decoration: none;
+    color:rgb(50, 180, 240);
+    font-size: 20px;
+    padding: 8px 16px;
+    font-weight: 500;
+    margin-top: 0.6%;
+    margin-left: 400px;
+  }
+  
+  .yellow-link:hover {
+    border-bottom: 2px solid rgb(50, 180, 240);
+    transition: border-bottom 0.3s ease;
+  }
+  
+  .yellow-button {
+    background-color:rgb(50, 180, 240);
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sign-in-button{
+    background-color:rgb(50, 180, 240);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20%;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 18px;
+    align-items: center;
+    width:110px;
+    height: 40px;
+    margin-top: 10px;
+  }
+
+
+  .movie {
+    text-decoration: none;
+    font-size: 30px;
+    margin-top: 0.8%;
+    color: rgb(255, 255, 255);
+    position: relative;
+  }
+  
+  .movie::before,
+  .movie::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    color: rgb(50, 180, 240);
+  }
+  
+  .movie::before {
+    left: 0.87em;
+  
+    
+       .search-bar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .search-input {
+        padding: 8px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        outline: none;
+        background-color: black;
+        color: white;
+      }
+      
+      .search-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: rgb(50, 180, 240);
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      
+    content: "o";
+  }
+  
+  .movie::after {
+    right: 1.3em;
+    content: "o";
+  }
+
+  .list{
+    color: #fff;
+    margin-top: 1.2%;
+    margin-right: 400px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  

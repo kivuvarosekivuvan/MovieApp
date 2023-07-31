@@ -1,0 +1,14 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2%;
+}
+#all{
+    margin-left: 850px;
+     margin-top: -1800px; 
+ 
+
+}
+#body {
+    margin-bottom: 20px;
+  }
